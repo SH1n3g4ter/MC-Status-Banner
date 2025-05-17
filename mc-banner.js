@@ -87,7 +87,7 @@ function getPlayerList(data){
         document.getElementById('playerlist').innerHTML = '';
         for (i = 0; i < data.players.list.length; i++) {
             document.getElementById('playerlist').innerHTML += `<div class="mc-tooltip">
-                                                                    <img src=https://minotar.net/avatar/${data.players.list[i]}/16.png">
+                                                                    <img src="https://minotar.net/avatar/${data.players.list[i]}/16.png">
                                                                     <span style="display:inline-block;"> ${data.players.list[i]}</span>
                                                                 </div>`;
         }
